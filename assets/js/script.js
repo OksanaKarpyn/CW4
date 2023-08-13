@@ -44,7 +44,7 @@ function countDate ( ){
      const currentDate = new Date().getTime();
 
      const differenza = xmasDate - currentDate;
-    if(false){
+    if(differenza >0){
 
        let rountedDate = Math.round( differenza / daysInMs );
        let rountedHour =  Math.round( differenza % daysInMs / hoursInMs );
